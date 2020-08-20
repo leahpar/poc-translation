@@ -1,0 +1,6 @@
+# messages.fr.yaml
+app:
+  page_accueil:
+    phrase1: Bienvenue chez nous !
+    phrase2: Liste des agences
+    phrase3: Liste des bénéficiaires de l'agence

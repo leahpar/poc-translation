@@ -1,0 +1,6 @@
+# messages.fr_B.yaml
+app:
+  page_accueil:
+    phrase1: Bienvenue chez Client B !
+    phrase2: Liste des pôles administratifs.
+    phrase3: Liste des clients du pôle administratif

@@ -1,0 +1,6 @@
+# messages.en.yaml
+app:
+  page_accueil:
+    phrase1: Welcome home!
+    phrase2: Agencies list
+    phrase3: List of agency clients

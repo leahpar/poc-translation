@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+
+    <style>
+
+        .bloc {
+            background-color: rgba(101, 204, 250, 0.25);
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+<pre>
+Locale = {{ locale }}
+</pre>
+
+<a href="/fr/">Defaut (fr)</a><br>
+<a href="/en/">Defaut (en)</a><br>
+<a href="/fr_A/">Client A (fr_A)</a> (traduit seulement le nom du client)<br>
+<a href="/fr_B/">Client B (fr_B)</a> (traduit tous les termes)<br>
+<a href="/fr_C/">Client C (fr_C)</a> (aucune traduction)<br>
+<a href="/en_D/">Client D (en_D)</a> (client anglais)<br>
+
+<h2>Rendu</h2>
+<div class="bloc">
+<h3>{{ 'app.page_accueil.phrase1'|trans }}</h3>
+
+<a href="#">{{ 'app.page_accueil.phrase2'|trans }}</a><br>
+<a href="#">{{ 'app.page_accueil.phrase3'|trans }}</a><br>
+</div>
+
+<h2>Fichier traduction</h2>
+<div class="bloc">
+<code><pre>
+{{ trans_file }}
+</code></pre>
+</div>
+
+</body>
+</html>
